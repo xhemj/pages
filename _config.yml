@@ -7,14 +7,14 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: xhemj
-description: An easy to use blogging platform with support for Jupyter Notebooks.
+description: Xhemj Blog
 github_username: xhemj
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "pages"
 
 # OPTIONAL: override baseurl and url if using a custom domain
 # Note: leave out the trailing / from this value. 
-url: "https://xhemj.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://fastpages.xhemj.now.sh" # the base hostname & protocol for your site, e.g. http://example.com
 
 ###########################################################
 #########  Special Instructions for baseurl ###############
