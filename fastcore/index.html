@@ -1664,14 +1664,22 @@ window.onload = wrap_img;
 
 
 
-  </div><!-- from https://github.com/utterance/utterances -->
-<script src="https://utteranc.es/client.js"
-        repo="xhemj/pages"
-        issue-term="title"
-        label="blogpost-comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
+  </div><script src='https://cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js'></script>
+<div id="vcomments"></div>
+<span id="/fastcore/" class="leancloud_visitors" data-flag-title="fastcore: An Underrated Python Library">
+    <em class="post-meta-item-text">阅读量 </em>
+    <i class="leancloud-visitors-count">N++</i>
+</span>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'oAYCSRc49jibCaljV801Bc99-MdYXbMMI',
+        appKey: 'FNT7dOfoUL9cj44bKvAMIp7s',
+		placeholder: '来发评论呀！',
+		visitor: 'true',
+		recordIP: 'true',
+		enableQQ: 'true'
+    })
 </script><a class="u-url" href="/fastcore/" hidden></a>
 </article>
       </div>
