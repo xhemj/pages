@@ -38,17 +38,6 @@
   
 
   
-      ,"page2": {
-          "title": "comments",
-          "content": "评论 .",
-          "url": "https://fastpages.xhemj.now.sh/_pages/comments.html",
-          "relUrl": "/_pages/comments.html",
-          "date": ""
-      }
-      
-  
-
-  
 
   
   
@@ -70,7 +59,7 @@
   
 
   
-      ,"page11": {
+      ,"page10": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://fastpages.xhemj.now.sh/robots.txt",
