@@ -1,0 +1,17 @@
+<script src='https://cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js'></script>
+<div id="vcomments"></div>
+<span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
+    <em class="post-meta-item-text">阅读量 </em>
+    <i class="leancloud-visitors-count">N++</i>
+</span>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'oAYCSRc49jibCaljV801Bc99-MdYXbMMI',
+        appKey: 'FNT7dOfoUL9cj44bKvAMIp7s',
+		placeholder: '来发评论呀！',
+		visitor: 'true',
+		recordIP: 'true',
+		enableQQ: 'true'
+    })
+</script>

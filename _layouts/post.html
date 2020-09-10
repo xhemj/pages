@@ -58,7 +58,7 @@ layout: default
     {{ content | toc  }}
   </div>
   {%- if page.comments -%}
-    {%- include utterances.html -%}
+    {%- include valine.html -%}
   {%- endif -%}
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
