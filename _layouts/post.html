@@ -40,6 +40,9 @@ layout: default
         <a class="category-tags-link" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
         {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
+	<span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}">
+		<em class="post-meta-item-text">&nbsp;&nbsp;阅读量 </em>
+    <i class="leancloud-visitors-count">N++</i>
       </p>
     {% endif %}
 
